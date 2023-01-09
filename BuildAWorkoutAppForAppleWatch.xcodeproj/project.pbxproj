@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4968AA4296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E4968AA3296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E4968AA9296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4968AA8296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatchApp.swift */; };
+		E4968AAB296C7FE000DE0082 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4968AAA296C7FE000DE0082 /* ContentView.swift */; };
+		E4968AAD296C7FE200DE0082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4968AAC296C7FE200DE0082 /* Assets.xcassets */; };
+		E4968AB0296C7FE200DE0082 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4968AAF296C7FE200DE0082 /* Preview Assets.xcassets */; };
+		E4968ABA296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4968AB9296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppTests.swift */; };
+		E4968AC4296C7FE300DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4968AC3296C7FE300DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppUITests.swift */; };
+		E4968AC6296C7FE300DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4968AC5296C7FE300DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4968AA5296C7FE000DE0082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4968A97296C7FE000DE0082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4968AA2296C7FE000DE0082;
+			remoteInfo = "BuildAWorkoutAppForAppleWatch Watch App";
+		};
+		E4968AB6296C7FE200DE0082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4968A97296C7FE000DE0082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4968AA2296C7FE000DE0082;
+			remoteInfo = "BuildAWorkoutAppForAppleWatch Watch App";
+		};
+		E4968AC0296C7FE200DE0082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4968A97296C7FE000DE0082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4968AA2296C7FE000DE0082;
+			remoteInfo = "BuildAWorkoutAppForAppleWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4968ACC296C7FE300DE0082 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E4968AA4296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E4968A9D296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildAWorkoutAppForAppleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4968AA3296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BuildAWorkoutAppForAppleWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4968AA8296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildAWorkoutAppForAppleWatchApp.swift; sourceTree = "<group>"; };
+		E4968AAA296C7FE000DE0082 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4968AAC296C7FE200DE0082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4968AAF296C7FE200DE0082 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4968AB5296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BuildAWorkoutAppForAppleWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4968AB9296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildAWorkoutAppForAppleWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		E4968ABF296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BuildAWorkoutAppForAppleWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4968AC3296C7FE300DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildAWorkoutAppForAppleWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		E4968AC5296C7FE300DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildAWorkoutAppForAppleWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4968AA0296C7FE000DE0082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4968AB2296C7FE200DE0082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4968ABC296C7FE200DE0082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4968A96296C7FE000DE0082 = {
+			isa = PBXGroup;
+			children = (
+				E4968AA7296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch Watch App */,
+				E4968AB8296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppTests */,
+				E4968AC2296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppUITests */,
+				E4968A9E296C7FE000DE0082 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4968A9E296C7FE000DE0082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4968A9D296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch.app */,
+				E4968AA3296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch Watch App.app */,
+				E4968AB5296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppTests.xctest */,
+				E4968ABF296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4968AA7296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E4968AA8296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatchApp.swift */,
+				E4968AAA296C7FE000DE0082 /* ContentView.swift */,
+				E4968AAC296C7FE200DE0082 /* Assets.xcassets */,
+				E4968AAE296C7FE200DE0082 /* Preview Content */,
+			);
+			path = "BuildAWorkoutAppForAppleWatch Watch App";
+			sourceTree = "<group>";
+		};
+		E4968AAE296C7FE200DE0082 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E4968AAF296C7FE200DE0082 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4968AB8296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4968AB9296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppTests.swift */,
+			);
+			path = "BuildAWorkoutAppForAppleWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		E4968AC2296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4968AC3296C7FE300DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppUITests.swift */,
+				E4968AC5296C7FE300DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "BuildAWorkoutAppForAppleWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4968A9C296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4968ACD296C7FE300DE0082 /* Build configuration list for PBXNativeTarget "BuildAWorkoutAppForAppleWatch" */;
+			buildPhases = (
+				E4968A9B296C7FE000DE0082 /* Resources */,
+				E4968ACC296C7FE300DE0082 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4968AA6296C7FE000DE0082 /* PBXTargetDependency */,
+			);
+			name = BuildAWorkoutAppForAppleWatch;
+			productName = BuildAWorkoutAppForAppleWatch;
+			productReference = E4968A9D296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E4968AA2296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4968AC9296C7FE300DE0082 /* Build configuration list for PBXNativeTarget "BuildAWorkoutAppForAppleWatch Watch App" */;
+			buildPhases = (
+				E4968A9F296C7FE000DE0082 /* Sources */,
+				E4968AA0296C7FE000DE0082 /* Frameworks */,
+				E4968AA1296C7FE000DE0082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BuildAWorkoutAppForAppleWatch Watch App";
+			productName = "BuildAWorkoutAppForAppleWatch Watch App";
+			productReference = E4968AA3296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4968AB4296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4968AD0296C7FE300DE0082 /* Build configuration list for PBXNativeTarget "BuildAWorkoutAppForAppleWatch Watch AppTests" */;
+			buildPhases = (
+				E4968AB1296C7FE200DE0082 /* Sources */,
+				E4968AB2296C7FE200DE0082 /* Frameworks */,
+				E4968AB3296C7FE200DE0082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4968AB7296C7FE200DE0082 /* PBXTargetDependency */,
+			);
+			name = "BuildAWorkoutAppForAppleWatch Watch AppTests";
+			productName = "BuildAWorkoutAppForAppleWatch Watch AppTests";
+			productReference = E4968AB5296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4968ABE296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4968AD3296C7FE300DE0082 /* Build configuration list for PBXNativeTarget "BuildAWorkoutAppForAppleWatch Watch AppUITests" */;
+			buildPhases = (
+				E4968ABB296C7FE200DE0082 /* Sources */,
+				E4968ABC296C7FE200DE0082 /* Frameworks */,
+				E4968ABD296C7FE200DE0082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4968AC1296C7FE200DE0082 /* PBXTargetDependency */,
+			);
+			name = "BuildAWorkoutAppForAppleWatch Watch AppUITests";
+			productName = "BuildAWorkoutAppForAppleWatch Watch AppUITests";
+			productReference = E4968ABF296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4968A97296C7FE000DE0082 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E4968A9C296C7FE000DE0082 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E4968AA2296C7FE000DE0082 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E4968AB4296C7FE200DE0082 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E4968AA2296C7FE000DE0082;
+					};
+					E4968ABE296C7FE200DE0082 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E4968AA2296C7FE000DE0082;
+					};
+				};
+			};
+			buildConfigurationList = E4968A9A296C7FE000DE0082 /* Build configuration list for PBXProject "BuildAWorkoutAppForAppleWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4968A96296C7FE000DE0082;
+			productRefGroup = E4968A9E296C7FE000DE0082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4968A9C296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch */,
+				E4968AA2296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch Watch App */,
+				E4968AB4296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppTests */,
+				E4968ABE296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4968A9B296C7FE000DE0082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4968AA1296C7FE000DE0082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4968AB0296C7FE200DE0082 /* Preview Assets.xcassets in Resources */,
+				E4968AAD296C7FE200DE0082 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4968AB3296C7FE200DE0082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4968ABD296C7FE200DE0082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4968A9F296C7FE000DE0082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4968AAB296C7FE000DE0082 /* ContentView.swift in Sources */,
+				E4968AA9296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4968AB1296C7FE200DE0082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4968ABA296C7FE200DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4968ABB296C7FE200DE0082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4968AC6296C7FE300DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				E4968AC4296C7FE300DE0082 /* BuildAWorkoutAppForAppleWatch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4968AA6296C7FE000DE0082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4968AA2296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch Watch App */;
+			targetProxy = E4968AA5296C7FE000DE0082 /* PBXContainerItemProxy */;
+		};
+		E4968AB7296C7FE200DE0082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4968AA2296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch Watch App */;
+			targetProxy = E4968AB6296C7FE200DE0082 /* PBXContainerItemProxy */;
+		};
+		E4968AC1296C7FE200DE0082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4968AA2296C7FE000DE0082 /* BuildAWorkoutAppForAppleWatch Watch App */;
+			targetProxy = E4968AC0296C7FE200DE0082 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4968AC7296C7FE300DE0082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4968AC8296C7FE300DE0082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E4968ACA296C7FE300DE0082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BuildAWorkoutAppForAppleWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4CBW377VZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BuildAWorkoutAppForAppleWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MurrayNet.BuildAWorkoutAppForAppleWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		E4968ACB296C7FE300DE0082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BuildAWorkoutAppForAppleWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4CBW377VZ7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BuildAWorkoutAppForAppleWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MurrayNet.BuildAWorkoutAppForAppleWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		E4968ACE296C7FE300DE0082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CBW377VZ7;
+				INFOPLIST_KEY_CFBundleDisplayName = BuildAWorkoutAppForAppleWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MurrayNet.BuildAWorkoutAppForAppleWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4968ACF296C7FE300DE0082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CBW377VZ7;
+				INFOPLIST_KEY_CFBundleDisplayName = BuildAWorkoutAppForAppleWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MurrayNet.BuildAWorkoutAppForAppleWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4968AD1296C7FE300DE0082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CBW377VZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MurrayNet.BuildAWorkoutAppForAppleWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuildAWorkoutAppForAppleWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuildAWorkoutAppForAppleWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		E4968AD2296C7FE300DE0082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CBW377VZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MurrayNet.BuildAWorkoutAppForAppleWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuildAWorkoutAppForAppleWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BuildAWorkoutAppForAppleWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		E4968AD4296C7FE300DE0082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CBW377VZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MurrayNet.BuildAWorkoutAppForAppleWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BuildAWorkoutAppForAppleWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		E4968AD5296C7FE300DE0082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4CBW377VZ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MurrayNet.BuildAWorkoutAppForAppleWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BuildAWorkoutAppForAppleWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4968A9A296C7FE000DE0082 /* Build configuration list for PBXProject "BuildAWorkoutAppForAppleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4968AC7296C7FE300DE0082 /* Debug */,
+				E4968AC8296C7FE300DE0082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4968AC9296C7FE300DE0082 /* Build configuration list for PBXNativeTarget "BuildAWorkoutAppForAppleWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4968ACA296C7FE300DE0082 /* Debug */,
+				E4968ACB296C7FE300DE0082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4968ACD296C7FE300DE0082 /* Build configuration list for PBXNativeTarget "BuildAWorkoutAppForAppleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4968ACE296C7FE300DE0082 /* Debug */,
+				E4968ACF296C7FE300DE0082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4968AD0296C7FE300DE0082 /* Build configuration list for PBXNativeTarget "BuildAWorkoutAppForAppleWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4968AD1296C7FE300DE0082 /* Debug */,
+				E4968AD2296C7FE300DE0082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4968AD3296C7FE300DE0082 /* Build configuration list for PBXNativeTarget "BuildAWorkoutAppForAppleWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4968AD4296C7FE300DE0082 /* Debug */,
+				E4968AD5296C7FE300DE0082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4968A97296C7FE000DE0082 /* Project object */;
+}
